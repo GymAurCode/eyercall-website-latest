@@ -1122,7 +1122,7 @@ body {
   color: #fff;
   white-space: nowrap;
   width: 0;                     
-  animation: typing 3s ease forwards;  
+  animation: typing 5s ease forwards;  
   animation-delay: 3.5s;  /* thoda wait kare */
 }
 
