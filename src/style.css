@@ -1527,7 +1527,7 @@ body {
         left: -20px;
     }
     .wrap span{
-        font-size: 35px;
+        font-size: 32px;
         position: absolute;
         left: -20px;
     }
@@ -1538,7 +1538,7 @@ body {
         padding-right: 450px;
     }
     .hero-info button{
-        margin-top: 50px;
+        margin-top: 55px;
         margin-left: -20px;
     }
     header ul{
@@ -1553,9 +1553,7 @@ body {
     .left span{
         margin-left: -10px;
     }
-    .info-section{
-        /* margin-left: -370px; */
-    }
+
     .info-section h1{
         font-size: 30px;
         text-align: center;
@@ -1565,24 +1563,26 @@ body {
         margin-left: 5px;
     }
     .card{
-        height: 80vh;
+        min-height: 80vh;
         margin-right: 378px;
     }
     .card h1{
-        font-size: 25px;
+        font-size: 23px;
         top: -10px;
+        max-width: 320px;
     }
     .card p{
         top: 10px;
         font-size: 15px;
     }
     .card span{
-        font-size: 18px;
+        font-size: 16px;
         width: 500px;
         text-align: justify;
     }
     .card button{
-        width: 300px;
+        width: 250px;
+        margin-bottom: 20px;
         border-radius: 10px;
     }
     .section-title{
@@ -1642,7 +1642,8 @@ body {
         left: 40px;
     }
     .footer-data{
-        margin-top: 220px;
+        margin-top: 60px;
+        
     }
     .footer-data span{
         font-size: 70px;
@@ -1653,13 +1654,50 @@ body {
     .custom-footer{
         height: 550px;
     }
-
-
-
-
 }
 
 
+@media (max-width: 312px) {
+    .hero{
+        top: 30px;
+    }
+    .hero-info h1{
+        font-size: 28px;
+    }
+  .wrap span{
+    font-size: 28px;
+  }
+  .hero-info button{
+    margin-top: 80px;
+  }
+  .anim-ball{
+    left: -550px;
+  }
+  .card h1{
+    font-size: 20px;
+    width: 250px;
+  }
+  .card button{
+    width: 200px;
+  }
+  .section-title{
+    font-size: 28px;
+    width: 300px;
+  }
+  .project-vidbox video{
+    width: 280px;
+  }
+  .project-info button{
+    margin-bottom: 50px;
+  }
+  .pcard-3 h1{
+    font-size: 21px;
+  }
+  .contact-box{
+    width: 210px;
+  }
+  
+}
 
 
 
