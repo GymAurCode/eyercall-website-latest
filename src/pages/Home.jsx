@@ -300,7 +300,7 @@ function Home() {
           </div>
 
           {/* Contact Form */}
-          <div className="contact-box autoBlur">
+          <div className="contact-box">
             <p >Whether you're looking to build a new website, improve your existing platform, or bring a unique project to life, We're here to help.</p>
 
             <p className='gradient'>Full Name</p>
@@ -313,6 +313,21 @@ function Home() {
             <input className="input-message" type="text" placeholder="Share your thoughts..." />
 
             <button>Send Message <i className='bx bx-mail-send'></i></button>
+              <div class="pendulum">
+    <div class="rope">
+      <div class="bead"></div>
+    </div>
+
+    <svg class="hook" viewBox="0 0 28 28" aria-hidden="true">
+      <path d="M22 8
+               A8 8 0 1 0 22 20"
+            fill="none"
+            stroke="#ffff"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"/>
+    </svg>
+  </div>
           </div>
         </section>
       </div>
