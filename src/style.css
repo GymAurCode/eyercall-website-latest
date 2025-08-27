@@ -1503,7 +1503,7 @@ body {
 
     :root {
       --rope: #ffff;       /* rope & hook color (white) */
-      --size: 50px;          /* rope height */
+      --size: 120px;          /* rope height */
       --thick: 5px;          /* rope thickness */
       --hook-thick: 3px;     /* hook stroke */
     }
@@ -1564,7 +1564,7 @@ body {
       50%  { transform: rotate(0deg); }
       75%  { transform: rotate(-4.5deg); }
       100% { transform: rotate(0deg); }
-    } */
+    } 
 
 
 
@@ -1581,9 +1581,6 @@ body {
 
 /* Small Devices (most phones: 361px – 480px) */
 @media screen and (min-width: 361px) and (max-width: 480px) {
-     .anim-ball,.anim-ball2,.anim-ball3,.anim-ball4,.anim-ball5{
-    display: none;
-  }
   header ul{
     display: none;
   }
@@ -1716,6 +1713,8 @@ body {
         padding-bottom: 80vh;
     }
 }
+
+
 
 /* Extra Small Devices (portrait phones, < 360px) */
 @media (max-width: 360px) {
