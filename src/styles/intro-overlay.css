@@ -1,0 +1,43 @@
+.io-root {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  display: grid;
+  place-items: center;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.io-word {
+  font-size: clamp(28px, 7vw, 96px);
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0.02em;
+  user-select: none;
+}
+
+.io-fade {
+  animation: ioFadeInOut 1s forwards;
+}
+
+@keyframes ioFadeInOut {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.io-slide {
+  animation: ioSlideUp 0.7s ease-in-out forwards;
+}
+
+@keyframes ioSlideUp {
+  to { transform: translateY(-100%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .io-fade,
+  .io-slide {
+    animation: none !important;
+  }
+}
